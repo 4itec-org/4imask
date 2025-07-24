@@ -42,7 +42,7 @@ uv run 4imask_anonymizer.py
 ```
 
 ## Compilation
-Ensure all dependencies are installed using `pip install -r requirements.txt`. Then, you can run the application with the command above.
+Ensure all dependencies are installed using `uv sync`. Then, you can run the application with the command above.
 
 ## Contribute
 Contributions are welcome. Please open an issue or submit a pull request.
