@@ -32,13 +32,14 @@ Clone the repository and install the dependencies:
 ```sh
 git clone https://github.com/your-username/4imask.git
 cd 4imask
-pip install -r requirements.txt
+uv init .
+uv sync
 ```
 
 ## Usage
 To launch the application, run:
 ```sh
-python 4imask_anonymizer.py
+uv run 4imask_anonymizer.py
 ```
 
 ## Compilation
